@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 120px;
+}
+
+.section_first {
+    background-position: center;
+    background-size: cover;
+    border-bottom: 10px solid rgb(54, 54, 54);
+}
+
+.new1 {
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+
+}
+.blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(7, 7, 7),rgba(0, 0, 0, 0.425));
+    z-index:-2 ;
+}
+
+.row {
+    background-color: black;
+}
+
+.sec,
+#sec1,
+#sec2,
+#sec3,
+.div2 {
+    border-bottom: 10px rgb(54, 54, 54) solid;
+}
+#fh{
+    font-size: 50px;
+}
+.h1 {
+    font-size: 50px;
+}
+
+.p {
+    font-size: 20px;
+}
+
+.hh {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+input {
+    height: 50px;
+}
+
+@media (max-width: 575.98px) {
+    .acc {
+        width: 100vw;
+
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .hh{
+        font-size: 30px;
+    }
+    #fh{
+        font-size: 40px;
+    }
+}
+
+.li{
+    font-size: small;
+    color: darkgray;
+    
+}
+#call{
+   font-size: larger;
+   color: darkgray;
+   
+
+}
+#hov p:hover{
+    text-decoration: underline;
+}
+.dr{
+    
+    color: white;
+}
+.acc{
+    border-bottom: 8px solid black;
+}
